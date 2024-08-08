@@ -42,7 +42,7 @@ BOOL CIpDlg::OnInitDialog()
 	CDialogEx::OnInitDialog();
 
 	// TODO:  Add extra initialization here
-	m_editIP = _T("192.168.170.1");
+	m_editIP = _T("127.0.0.1");
 	m_editPort = _T("16666");
 	UpdateData(FALSE);
 	return TRUE;  // return TRUE unless you set the focus to a control

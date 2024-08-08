@@ -123,7 +123,7 @@ BOOL CRemoteCtrlClientDlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 
 	// TODO: 在此添加额外的初始化代码
-	m_editIP = "192.168.170.1";
+	m_editIP = "127.0.0.1";
 	m_editPort = 16666;
 	UpdateData(FALSE);
 	m_btnStart.EnableWindow(!m_bClientIsRunnning);
